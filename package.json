@@ -1,0 +1,23 @@
+{
+  "name": "leetcode",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "jsdom": "^26.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}
